@@ -7,5 +7,7 @@ def sum(a,b):
 
 # Enter the values to be added
 sum1=sum(50,30)
+sum2=sum(6,4)
 # Finally print sum
 print(sum1)
+print(sum2)
