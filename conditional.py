@@ -1,7 +1,6 @@
-Raining="True"
-
-if (Raining=='True'):
-    print(“Carry an Umbrella”)
-
+rains = "False"
+if(rains=="True"):
+    print("I need Umbrella\n")
 else:
-	print(“Wear light clothes as the weather looks dry today”)
+    if(rains=="False"):
+        print("Put on light clothes")
