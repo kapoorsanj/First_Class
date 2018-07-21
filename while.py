@@ -1,14 +1,12 @@
-answer = 23
-question = 'What number am I thinking of?  '
-print ('Let\'s play the guessing game!')
-
+answer=25
+q="what no. am I thinking?"
+print("lets play a game")
 while True:
-    guess = int(input(question))
-
-    if guess < answer:
-        print ('Little higher')
-    elif guess > answer:
-        print ('Little lower')
-    else: # guess == answer
-        print ('MINDREADER!!!')
-    break
+    guess=int(input(q))
+    if(guess<answer):
+        print("A little higher")
+    elif(guess>answer):
+        print("A little lower")
+    else:
+       print("You got it!")
+       break;
