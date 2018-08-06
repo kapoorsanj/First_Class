@@ -1,4 +1,5 @@
-# A program that tells us wheather its a number or not.
+# A program to check if factorial is a number
 from math import *
-t=isnan(5)
-print("The isnan is:=",t)
+t=float('nan')
+x=isnan(t)
+print("the boolean result is:=", x)
